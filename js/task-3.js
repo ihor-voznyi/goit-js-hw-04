@@ -11,7 +11,7 @@ const profile = {
     },
     getInfo() {
         `${this.username} has ${this.payTime} active hours!`;
-    }
+    },
 };
 
 console.log(profile.getInfo()); // "Jacob has 300 active hours!"
