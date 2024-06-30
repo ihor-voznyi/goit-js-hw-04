@@ -1,11 +1,11 @@
 'use strict';
 
-function isEnoughCapasity(products, containerSize) {
-    let caunt = 0;
+function isEnoughCapacity(products, containerSize) {
+    let count = 0;
     for (const key in products) {
-        caunt += products[key];
+        count += products[key];
     }
-    if (caunt < containerSize) {
+    if (count < containerSize) {
         return true;
     } else {
         return false;
