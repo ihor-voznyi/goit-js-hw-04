@@ -10,7 +10,7 @@ const profile = {
         this.playTime += hours;
     },
     getInfo() {
-        `${this.username} has ${this.payTime} active hours!`;
+        return `${this.username} has ${this.payTime} active hours!`;
     },
 };
 
